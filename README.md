@@ -8,4 +8,4 @@ The larger the number, the more the odds diverge from the statistics, thus, the 
 Recommend user not only check overall stats, but also the particular matchup home team stats at home vs. away team stats away from home, for a clearer idea of one's edge, and bookmaker's odds divergence.
 
 
-Note: The spotsbooks juice is set by default at 5% and can be modified via line 127(Form1.cs)
+Note: The spotsbooks juice is set by default at 5% and can be modified via line 123(Form1.cs)
