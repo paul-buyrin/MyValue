@@ -6,4 +6,4 @@ Helps the user check the bookmaker's under/over soccer line odds against the Tea
 The larger the number, the more the odds diverge from the statistics, thus, the bigger the edge.
 
 
-note: The spotrsbooks juice is set by default at 5% and can be modified via line 127
+Note: The spotsbooks juice is set by default at 5% and can be modified via line 127
