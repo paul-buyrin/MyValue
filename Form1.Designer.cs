@@ -50,6 +50,7 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,9 +58,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 15);
+            this.label1.Size = new System.Drawing.Size(71, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Home Side\r\n";
+            this.label1.Text = "Home Team";
             // 
             // label2
             // 
@@ -194,24 +195,24 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(336, 125);
+            this.label10.Location = new System.Drawing.Point(324, 125);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 15);
+            this.label10.Size = new System.Drawing.Size(81, 15);
             this.label10.TabIndex = 18;
-            this.label10.Text = "Over Odds";
+            this.label10.Text = "Over 2.5 Odds";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(313, 225);
+            this.label11.Location = new System.Drawing.Point(336, 225);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(107, 15);
+            this.label11.Size = new System.Drawing.Size(110, 15);
             this.label11.TabIndex = 19;
-            this.label11.Text = "SportsbookPercent";
+            this.label11.Text = "BookieProbability%";
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(336, 149);
+            this.textBox10.Location = new System.Drawing.Point(324, 149);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(61, 23);
             this.textBox10.TabIndex = 21;
@@ -221,7 +222,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(343, 280);
+            this.label12.Location = new System.Drawing.Point(324, 280);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(77, 21);
             this.label12.TabIndex = 22;
@@ -238,11 +239,25 @@
             this.label13.Text = "%";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.SeaGreen;
+            this.button1.Location = new System.Drawing.Point(324, 350);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 40);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Reset";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 446);
+            this.ClientSize = new System.Drawing.Size(453, 446);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox10);
@@ -296,5 +311,6 @@
         private TextBox textBox10;
         private Label label12;
         private Label label13;
+        private Button button1;
     }
 }
