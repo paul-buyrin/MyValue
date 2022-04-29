@@ -33,7 +33,7 @@ namespace underover
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
             try { int totalGames1 = Convert.ToInt32(textBox1.Text); }
-            catch (FormatException) { textBox1.Text = " "; }
+            catch (FormatException) { textBox1.Text = "0"; }
         }
 
         public void textBox2_TextChanged(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace underover
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
             try { int totalGames2 = Convert.ToInt32(textBox6.Text); }
-            catch (FormatException) { textBox6.Text = " "; }
+            catch (FormatException) { textBox6.Text = "0"; }
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
